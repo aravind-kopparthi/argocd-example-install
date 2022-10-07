@@ -1,4 +1,5 @@
 
+<pre>
 helm repo add argo-cd https://argoproj.github.io/argo-helm
 mkdir argo-cd
 helm dep update argo-cd/
@@ -13,3 +14,4 @@ helm install argo-cd argo-cd -n argocd
  z5vErNpejRHcGJKz
 helm template apps/ | kubectl apply -f -
 https://www.arthurkoziel.com/setting-up-argocd-with-helm/
+</pre>
